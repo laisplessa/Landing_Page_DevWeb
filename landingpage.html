@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tio Meio Rico - Landing Page</title>
+</head>
+<body>
+
+<header class="header-image">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tio Meio Rico</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#cursos">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#inscricao">Inscrição</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="text-center">
+        <h1>Bem-vindo à Tio Meio Rico!</h1>
+        <p>Aprenda e cresça com nossos cursos incríveis!</p>
+    </div>
+</header>
+
+<div class="container my-5">
+    <h2 class="text-center">Conheça nossos cursos!</h2>
+    <div id="cursos" class="row my-5">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow">
+                <img src="curso1.jpg" class="card-img-top" alt="Curso 1">
+                <div class="card-body">
+                    <h5 class="card-title">Curso 1</h5>
+                    <p class="card-text">Descrição breve do Curso 1.</p>
+                    <a href="#" class="btn btn-primary">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow">
+                <img src="curso2.jpg" class="card-img-top" alt="Curso 2">
+                <div class="card-body">
+                    <h5 class="card-title">Curso 2</h5>
+                    <p class="card-text">Descrição breve do Curso 2.</p>
+                    <a href="#" class="btn btn-primary">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow">
+                <img src="curso3.jpg" class="card-img-top" alt="Curso 3">
+                <div class="card-body">
+                    <h5 class="card-title">Curso 3</h5>
+                    <p class="card-text">Descrição breve do Curso 3.</p>
+                    <a href="#" class="btn btn-primary">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="inscricao" class="text-center">Inscreva-se para nossos cursos!</h2>
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" class="form-control" id="sobrenome" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço completo</label>
+                    <input type="text" class="form-control" id="endereco" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" id="cep" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" class="form-control" id="usuario" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="curso">Curso</label>
+                    <select id="curso" class="form-control">
+                        <option selected>Escolha...</option>
+                        <option>Curso 1</option>
+                        <option>Curso 2</option>
+                        <option>Curso 3</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="estado">Estado</label>
+                        <input type="text" class="form-control" id="estado" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="pais">País</label>
+                        <input type="text" class="form-control" id="pais" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="pagamento">Forma de Pagamento</label>
+                    <select id="pagamento" class="form-control">
+                        <option selected>Escolha...</option>
+                        <option>Cartão de Crédito</option>
+                        <option>Boleto</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="idade">Idade</label>
+                    <input type="number" class="form-control" id="idade" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center">
+    <p>&copy; 2024 Tio Meio Rico. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

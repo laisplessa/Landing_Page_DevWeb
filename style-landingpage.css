@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header-image {
+    background-image: url('sua-imagem.jpg'); /* Substitua pela URL da sua imagem */
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+    border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
