@@ -4,11 +4,11 @@ body {
 }
 
 .header-image {
-    background-image: url('sua-imagem.jpg'); /* Substitua pela URL da sua imagem */
+    background-image: url('https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg'); /* Substitua pela URL da sua imagem */
     height: 400px;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(184, 176, 176);
     display: flex;
     align-items: center;
     justify-content: center;
